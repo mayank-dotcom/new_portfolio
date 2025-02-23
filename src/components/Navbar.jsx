@@ -30,7 +30,7 @@ function Navbar() {
         </button>
 
         {/* Navbar Items */}
-        <div className="collapse navbar-collapse" id="navbarNav">
+        <div className="collapse navbar-collapse" id="navbarNav"style={{backgroundColor:"transparent"}}>
           <ul className="navbar-nav ms-auto">
             {[ "About", "Skills", "Projects"].map((item) => (
               <li className="nav-item" key={item}>
@@ -56,7 +56,7 @@ function Navbar() {
                     </a>
                   </li>
                   <li>
-                    <a className="dropdown-item" href="https://github.com/mayankmishra" target="_blank">
+                    <a className="dropdown-item" href="https://github.com/mayank-dotcom" target="_blank">
                       <i className="fab fa-github"></i> <a href="https://github.com/mayank-dotcom" style={{textDecoration:"none",color:"white"}}>GitHub</a>
                     </a>
                   </li>

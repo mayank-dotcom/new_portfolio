@@ -1,3 +1,4 @@
+import './about.css'
 function About() {
   return (
     <section id="about" className="about-section"style={{width:"50rem",marginLeft:"13rem"}}>
@@ -14,13 +15,13 @@ function About() {
                 <div className="col-md-4">
                   <div className="stat-item">
                     <h3>3+</h3>
-                    <p>months Experience as an intern</p>
+                    <p>Months experience as an intern</p>
                   </div>
                 </div>
                 <div className="col-md-4">
                   <div className="stat-item">
                     <h3>2+</h3>
-                    <p>Projects Completed</p>
+                    <p>Major projects Completed</p>
                   </div>
                 </div>
                 <div className="col-md-4">

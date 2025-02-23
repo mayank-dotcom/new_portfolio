@@ -1,13 +1,13 @@
 import { Link } from "react-scroll"
-
+import"./Hero.css"
 function Hero() {
   return (
     <section id="hero" className="hero-section"style={{left:"4rem"}}>
       <div className="container h-100">
         <div className="row h-100 align-items-center">
           <div className="col-12 text-center">
-            <h1 className="display-1 text-white mb-4 animate__animated animate__fadeIn">Web Developer</h1>
-            <p className="lead text-white mb-5 animate__animated animate__fadeIn animate__delay-1s">
+            <h1 className="display-1 text-white mb-4 animate__animated animate__fadeIn">Web Dev</h1>
+            <p className="lead text-white mb-5 animate__animated animate__fadeIn animate__delay-1s" id="herotex">
               Crafting Digital Experiences Across the Universe
             </p>
             <Link

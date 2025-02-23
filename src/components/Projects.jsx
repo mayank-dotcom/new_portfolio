@@ -1,3 +1,4 @@
+import "./Projects.css"
 function Projects() {
   const projects = [
     {
@@ -28,7 +29,7 @@ function Projects() {
       <div className="container">
         <h2 className="section-title text-center">Featured Projects</h2>
         <hr />
-        <div className="row">
+        <div className="row" id="projectdiv">
           {projects.map((project, index) => (
             <div key={index} className="col-md-4 mb-4">
               <div className="project-card">
@@ -38,7 +39,7 @@ function Projects() {
                 <div className="project-info">
                   <h3>{project.title}</h3>
                   <p>{project.description}</p>
-                  <p>{project.tech}</p>
+                  <p id="tech">{project.tech}</p>
                   <a href={project.link} className="btn btn-outline-light">
                     View Project
                   </a>

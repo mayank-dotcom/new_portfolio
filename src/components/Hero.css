@@ -1,0 +1,12 @@
+@media(max-width:400px){
+    #hero{
+        position: relative;
+        left: -23rem!important;
+        height: 40rem;
+    }
+    #herotex{
+       width: 20rem;
+       position: relative;
+       left: 25rem;
+    }
+}

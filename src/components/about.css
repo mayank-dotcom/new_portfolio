@@ -1,0 +1,10 @@
+@media(max-width:400px){
+    #about{
+    /* border: 2px solid red; */
+    position: relative;
+    scale: 80%;
+    right: 16.7rem;
+    top:-7rem;
+    width: 32rem!important;
+    }
+}

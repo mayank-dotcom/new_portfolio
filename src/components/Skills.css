@@ -137,3 +137,23 @@
 #ic {
     font-size: 34px;
 }
+@media(max-width:400px){
+    #skills{
+        scale: 60%;
+        position: relative;
+        left: -23rem!important;
+        top: -27rem!important;
+        /* width: 32rem!important; */
+        padding-left: 5rem;
+        padding-right: 5rem;
+
+    }
+    .skills-grid{
+                width: 32rem!important;
+                position: relative;
+
+                right: -13rem!important;
+
+
+    }
+}
