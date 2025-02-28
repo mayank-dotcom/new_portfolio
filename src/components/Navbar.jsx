@@ -52,12 +52,17 @@ function Navbar() {
                 <ul className="dropdown-menu show">
                   <li>
                     <a className="dropdown-item" href="https://www.linkedin.com/in/mayank-mishra" target="_blank">
-                      <i className="fab fa-linkedin"></i><a href="https://www.linkedin.com/in/mayank-mishra-475570328/" style={{textDecoration:"none",color:"white"}}>LinkedIn</a> 
+                      <i className="fab fa-linkedin"></i><a href="https://www.linkedin.com/in/mayank-mishra-475570328/" style={{textDecoration:"none",color:"white"}}>&nbsp;&nbsp;LinkedIn</a> 
                     </a>
                   </li>
                   <li>
                     <a className="dropdown-item" href="https://github.com/mayank-dotcom" target="_blank">
-                      <i className="fab fa-github"></i> <a href="https://github.com/mayank-dotcom" style={{textDecoration:"none",color:"white"}}>GitHub</a>
+                      <i className="fab fa-github"></i> <a href="https://github.com/mayank-dotcom" style={{textDecoration:"none",color:"white"}}>&nbsp;GitHub</a>
+                    </a>
+                  </li>
+                  <li>
+                    <a className="dropdown-item" href="/Resume.pdf" download="Mayank_Mishra_Resume.pdf" target="_blank">
+                      <i className="fa-solid fa-address-card"></i> <a href="/Resume.pdf" download="Mayank_Mishra_Resume.pdf" style={{textDecoration:"none",color:"white"}}>&nbsp;&nbsp;Resume</a>
                     </a>
                   </li>
                 </ul>
