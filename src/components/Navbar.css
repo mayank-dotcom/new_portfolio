@@ -62,4 +62,16 @@
   .fab {
     margin-right: 8px;
   }
-  
+@media (min-width: 1900px)   {
+  .container{
+    height: 4rem!important;
+  }.brand-text{
+    font-size: 40px!important;
+    position: relative!important;
+    left: -8rem!important;
+  }#options{
+    scale: 145% !important;
+    position: relative!important;
+    right: -8rem!important;
+  }
+}

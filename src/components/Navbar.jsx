@@ -31,7 +31,7 @@ function Navbar() {
 
         {/* Navbar Items */}
         <div className="collapse navbar-collapse" id="navbarNav"style={{backgroundColor:"transparent"}}>
-          <ul className="navbar-nav ms-auto">
+          <ul className="navbar-nav ms-auto" id="options">
             {[ "About", "Skills", "Projects"].map((item) => (
               <li className="nav-item" key={item}>
                 <Link className="nav-link" to={item.toLowerCase()} smooth={true} duration={500}>

@@ -10,3 +10,21 @@
        left: 25rem;
     }
 }
+@media (max-width: 1536px) and (min-width: 1280px) {
+    #hero{
+        left: 5.5rem !important;
+    }
+}
+@media (min-width: 1900px)   {
+
+#hero{
+        /* position: relative!important; */
+        margin-left: 20rem !important;
+        scale: 115%;
+    }
+
+}    @media (max-width: 1280px) and (min-width: 1024px) {
+#hero{
+margin-right: 5rem !important;
+}
+}

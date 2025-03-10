@@ -157,3 +157,19 @@
 
     }
 }
+@media (max-width: 1536px) and (min-width: 1280px) {
+    #skills{
+left: 12rem!important;
+    }
+}@media (max-width: 1280px) and (min-width: 1024px) {
+#skills{
+    left: 4rem!important;
+
+}
+}@media (min-width: 1900px)   {
+    #skills{
+    width: 90rem!important;
+    scale: 105% !important;
+    left: 15rem!important;
+    }
+}

@@ -20,4 +20,17 @@
     #tech{
      display: none;
     }
+}@media (min-width: 1900px)   {
+#projects{
+    left: 15rem!important;
+    scale: 120% !important;
+}
+}@media (max-width: 1536px) and (min-width: 1280px) {
+#projects{
+    left:7rem!important;
+}
+}  @media (max-width: 1280px) and (min-width: 1024px) {
+    #projects{
+        left: 4rem!important;
+    }
 }
