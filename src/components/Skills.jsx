@@ -1,4 +1,3 @@
-
 import React from 'react';
 import './Skills.css';
 
@@ -52,6 +51,7 @@ const CircularProgress = ({ value, color = 'white' }) => {
 const Skills = () => {
   const skills = [
     { name: <i className="fa-brands fa-react" id="ic"></i>, level: 90, color: "white" },
+    { name: <img src="/nextjs.webp" alt="Next.js" style={{height: '34px', width: '34px', display: 'inline-block', verticalAlign: 'middle', filter: 'invert(1)'}} />, level: 90, color: "white" },
     { name: <i className="fa-brands fa-js" id="ic"></i>, level: 85, color: "white" },
     { name: <i className="fa-brands fa-html5" id="ic"> / <i className="fa-brands fa-css3-alt"></i></i>, level: 95, color: "white" },
     { name: <i className="fa-brands fa-node" id="ic"></i>, level: 80, color: "white" },

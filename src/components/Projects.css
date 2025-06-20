@@ -24,6 +24,7 @@
 #projects{
     left: 15rem!important;
     scale: 120% !important;
+    top: 2rem!important;
 }
 }@media (max-width: 1536px) and (min-width: 1280px) {
 #projects{

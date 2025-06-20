@@ -61,8 +61,8 @@ function Navbar() {
                     </a>
                   </li>
                   <li>
-                    <a className="dropdown-item" href="/Resume.pdf" download="Mayank_Mishra_Resume.pdf" target="_blank">
-                      <i className="fa-solid fa-address-card"></i> <a href="/Resume.pdf" download="Mayank_Mishra_Resume.pdf" style={{textDecoration:"none",color:"white"}}>&nbsp;&nbsp;Resume</a>
+                    <a className="dropdown-item" href="/Resumenew.pdf" download="Mayank_Mishra_Resume.pdf" target="_blank">
+                      <i className="fa-solid fa-address-card"></i> <a href="/Resumenew.pdf" download="Mayank_Mishra_Resume.pdf" style={{textDecoration:"none",color:"white"}}>&nbsp;&nbsp;Resume</a>
                     </a>
                   </li>
                 </ul>

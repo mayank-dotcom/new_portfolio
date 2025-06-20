@@ -16,11 +16,23 @@ function Projects() {
       link: "https://traveller-web.onrender.com/home",
     },
     {
-      title: "Comming Soon!",
-      description: "Comming Soon!",
-      image: "/image.png?height=300&width=400",
-      tech:"comming soon !",
-      link: "#",
+      title: "Niyojaka",
+      description: "Generates and mails smart replies automatically — saving time and boosting productivity.",
+      image: "/niyojaka.png?height=300&width=400",
+      tech: <>
+        <i className="fa-brands fa-html5" id="ic" style={{marginRight: '8px'}}></i>
+        <i className="fa-brands fa-css3-alt" id="ic" style={{marginRight: '8px'}}></i>
+        <i className="fa-brands fa-js" id="ic" style={{marginRight: '8px'}}></i>
+        <i className="fa-brands fa-bootstrap" id="ic" style={{marginRight: '8px'}}></i>
+        <i className="fa-brands fa-react" id="ic" style={{marginRight: '8px'}}></i>
+        <i className="fa-brands fa-node" id="ic" style={{marginRight: '8px'}}></i>
+        <i className="fa-solid fa-server" id="ic" style={{marginRight: '8px'}}></i>
+        {/* Next.js icon as image */}
+        <img src="/nextjs.webp" alt="Next.js" style={{height: '34px', width: '34px', display: 'inline-block', verticalAlign: 'middle', marginRight: '8px', filter: 'invert(1)'}} />
+        {/* Langchain icon fallback: chatbot */}
+        <i className="fa-solid fa-robot" id="ic" style={{marginRight: '8px'}}></i>
+      </>,
+      link: "https://gmailbot-dun.vercel.app/",
     },
   ]
 
