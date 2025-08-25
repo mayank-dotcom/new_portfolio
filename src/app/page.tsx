@@ -42,7 +42,7 @@ export default function Home() {
               </div>
             </div>
             <p className="text-yellow-400 hud-font text-sm">
-              © 2024 IRON_MAN_PROTOCOL.EXE • PORTFOLIO_v2.0 • CLASSIFIED
+              © 2025 IRON_MAN_PROTOCOL.EXE • PORTFOLIO_v2.0 • CLASSIFIED
             </p>
           </div>
         </footer>
