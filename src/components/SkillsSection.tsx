@@ -56,7 +56,7 @@ const categories = ['Frontend', 'Backend', 'Database', 'AI/ML', 'APIs'];
 export default function SkillsSection() {
   return (
     <section id="skills" className="py-20 relative">
-      <div className="container mx-auto px-6">
+      <div className="container mx-auto px-4 sm:px-6">
         <motion.div
           initial={{ opacity: 0, y: 50 }}
           whileInView={{ opacity: 1, y: 0 }}
@@ -66,7 +66,7 @@ export default function SkillsSection() {
         >
           <div className="hud-border inline-block p-6 mb-8">
             <div className="hud-font text-yellow-400 text-sm mb-2">SCANNING_TECHNOLOGIES...</div>
-            <h2 className="text-4xl md:text-6xl font-bold glow-yellow-text">
+            <h2 className="text-2xl sm:text-4xl md:text-6xl font-bold glow-yellow-text">
               TECH_ARSENAL
             </h2>
             <div className="hud-font text-gray-300 text-sm mt-4 max-w-2xl">
@@ -77,7 +77,7 @@ export default function SkillsSection() {
           </div>
         </motion.div>
 
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-5 gap-8 mb-16">
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-5 gap-4 sm:gap-6 lg:gap-8 mb-16">
           {categories.map((category, categoryIndex) => (
             <motion.div
               key={category}
@@ -188,8 +188,9 @@ export default function SkillsSection() {
             
             <div className="hud-font">
               <div className="text-yellow-400 text-sm mb-2">ARSENAL_SUMMARY.LOG</div>
-              <h3 className="text-2xl font-bold glow-yellow-text mb-4">
-                SPECIALIZED_COMBAT_SYSTEMS
+              <h3 className="text-lg sm:text-xl md:text-2xl font-bold glow-yellow-text mb-4 text-center">
+                <span className="block sm:inline">SPECIALIZED</span>
+                <span className="block sm:inline">_COMBAT_SYSTEMS</span>
               </h3>
               <div className="text-gray-300 max-w-3xl hud-font text-sm leading-relaxed">
                  FRONTEND_WEAPONS: REACT.JS, NEXT.JS, TYPESCRIPT<br/>

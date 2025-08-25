@@ -67,8 +67,8 @@ export default function ProjectsSection() {
   const [hoveredProject, setHoveredProject] = useState<number | null>(null);
 
   return (
-    <section id="projects" className="py-20 relative">
-      <div className="container mx-auto px-6">
+    <section id="projects" className="py-20 relative overflow-x-hidden">
+      <div className="container mx-auto px-4 sm:px-6">
         <motion.div
           initial={{ opacity: 0, y: 50 }}
           whileInView={{ opacity: 1, y: 0 }}
@@ -76,9 +76,12 @@ export default function ProjectsSection() {
           viewport={{ once: true }}
           className="text-center mb-16"
         >
-          <div className="hud-border inline-block p-6 mb-8">
-            <div className="hud-font text-yellow-400 text-sm mb-2">MISSION_FILES_ACCESSED...</div>
-            <h2 className="text-4xl md:text-6xl font-bold glow-yellow-text">
+          <div className="hud-border block sm:inline-block p-4 sm:p-6 mb-8 max-w-full w-full sm:w-auto mx-auto">
+            <div className="hud-font text-yellow-400 text-xs sm:text-sm mb-2 text-center">
+              <span className="block sm:inline">MISSION_FILES</span>
+              <span className="block sm:inline">_ACCESSED...</span>
+            </div>
+            <h2 className="text-2xl sm:text-4xl md:text-6xl font-bold glow-yellow-text">
               PROJECT_ARCHIVE
             </h2>
             <div className="hud-font text-gray-300 text-sm mt-4">
@@ -89,7 +92,7 @@ export default function ProjectsSection() {
           </div>
         </motion.div>
 
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-5 gap-6">
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-5 gap-4 sm:gap-6">
           {projects.map((project, index) => (
             <motion.div
               key={project.id}
@@ -302,9 +305,10 @@ export default function ProjectsSection() {
           viewport={{ once: true }}
           className="text-center mt-16"
         >
-          <div className="hud-border inline-block p-6">
-            <div className="hud-font text-yellow-400 text-sm mb-4">
-              ADDITIONAL_MISSIONS_AVAILABLE
+          <div className="hud-border block sm:inline-block p-4 sm:p-6 max-w-full w-full sm:w-auto mx-auto">
+            <div className="hud-font text-yellow-400 text-xs sm:text-sm mb-4 text-center">
+              <span className="block sm:inline">ADDITIONAL_MISSIONS</span>
+              <span className="block sm:inline">_AVAILABLE</span>
             </div>
             <p className="text-gray-300 mb-6 hud-font">
               {'>>'} REQUEST_COLLABORATION_PROTOCOL.EXE
@@ -319,7 +323,7 @@ export default function ProjectsSection() {
                 textShadow: "0 0 10px rgba(255, 215, 0, 0.8)"
               }}
               whileTap={{ scale: 0.95 }}
-              className="hud-border hud-font text-yellow-400 hover:text-black hover:bg-yellow-400 px-8 py-4 transition-all duration-300 relative overflow-hidden group inline-block"
+              className="hud-border hud-font text-yellow-400 hover:text-black hover:bg-yellow-400 px-4 sm:px-8 py-3 sm:py-4 transition-all duration-300 relative overflow-hidden group inline-block text-sm sm:text-base"
             >
               <motion.div
                 className="absolute inset-0 bg-yellow-400 opacity-0 group-hover:opacity-20"
