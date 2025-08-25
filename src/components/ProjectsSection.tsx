@@ -84,10 +84,10 @@ export default function ProjectsSection() {
             <h2 className="text-2xl sm:text-4xl md:text-6xl font-bold glow-yellow-text">
               PROJECT_ARCHIVE
             </h2>
-            <div className="hud-font text-gray-300 text-sm mt-4">
-               DISPLAYING_CLASSIFIED_PROJECTS.EXE
+            <div className="hud-font text-gray-300 text-xs sm:text-sm mt-4 break-words">
+               DISPLAYING_<wbr/>CLASSIFIED_<wbr/>PROJECTS.EXE
               <br/>
-               SECURITY_CLEARANCE: LEVEL_7
+               SECURITY_<wbr/>CLEARANCE: LEVEL_7
             </div>
           </div>
         </motion.div>
@@ -303,17 +303,16 @@ export default function ProjectsSection() {
           whileInView={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.8 }}
           viewport={{ once: true }}
-          className="text-center mt-16"
+          className="text-center mt-16 px-4"
         >
-          <div className="hud-border block sm:inline-block p-4 sm:p-6 max-w-full w-full sm:w-auto mx-auto">
+          <div className="hud-border p-4 sm:p-6 lg:p-8 max-w-2xl mx-auto w-full">
             <div className="hud-font text-yellow-400 text-xs sm:text-sm mb-4 text-center">
-              <span className="block sm:inline">ADDITIONAL_MISSIONS</span>
-              <span className="block sm:inline">_AVAILABLE</span>
+              <span className="block xs:inline">ADDITIONAL_MISSIONS</span>
+              <span className="block xs:inline">_AVAILABLE</span>
             </div>
-            <p className="text-gray-300 mb-6 hud-font">
-              {'>>'} REQUEST_COLLABORATION_PROTOCOL.EXE
-              <br/>
-              {'>>'} INITIATE_CONTACT_SEQUENCE?
+            <p className="text-gray-300 mb-6 hud-font text-xs sm:text-sm lg:text-base px-2">
+              <span className="block break-words">{'>>'} REQUEST_<wbr/>COLLABORATION_<wbr/>PROTOCOL.EXE</span>
+              <span className="block break-words">{'>>'} INITIATE_<wbr/>CONTACT_<wbr/>SEQUENCE?</span>
             </p>
             <motion.a
               href="mailto:mayank642work@gmail.com?subject=Project%20Collaboration%20Inquiry&body=Hello%20Mayank%2C%0A%0AI%20visited%20your%20portfolio%20and%20am%20interested%20in%20discussing%20a%20potential%20collaboration.%0A%0ABest%20regards"
@@ -323,7 +322,7 @@ export default function ProjectsSection() {
                 textShadow: "0 0 10px rgba(255, 215, 0, 0.8)"
               }}
               whileTap={{ scale: 0.95 }}
-              className="hud-border hud-font text-yellow-400 hover:text-black hover:bg-yellow-400 px-4 sm:px-8 py-3 sm:py-4 transition-all duration-300 relative overflow-hidden group inline-block text-sm sm:text-base"
+              className="hud-border hud-font text-yellow-400 hover:text-black hover:bg-yellow-400 px-4 sm:px-6 lg:px-8 py-3 sm:py-4 transition-all duration-300 relative overflow-hidden group inline-block text-xs sm:text-sm lg:text-base w-full sm:w-auto max-w-sm mx-auto"
             >
               <motion.div
                 className="absolute inset-0 bg-yellow-400 opacity-0 group-hover:opacity-20"
@@ -335,7 +334,10 @@ export default function ProjectsSection() {
                 }}
                 transition={{ duration: 0.5, repeat: Infinity }}
               />
-              <span className="relative z-10">[EXECUTE] INITIATE_CONTACT</span>
+              <span className="relative z-10 block text-center">
+                <span className="block sm:inline">[EXECUTE]</span>
+                <span className="block sm:inline sm:ml-1">INITIATE_CONTACT</span>
+              </span>
             </motion.a>
           </div>
         </motion.div>

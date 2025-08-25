@@ -201,7 +201,7 @@ export default function SkillsSection() {
               
               {/* Progress bars for each system */}
               <div className="mt-6 space-y-2">
-                {['FRONTEND', 'BACKEND', 'AI_SYSTEMS', 'DATABASE', 'API_INTEGRATION'].map((system, index) => (
+                {['FRONTEND', 'BACKEND', 'AI_SYSTEMS', 'DATABASE', 'API'].map((system, index) => (
                   <div key={system} className="flex items-center space-x-4">
                     <span className="text-yellow-400 text-xs w-20 text-left">{system}:</span>
                     <div className="flex-1 h-1 bg-black/50 border border-yellow-400/30 overflow-hidden">

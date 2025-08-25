@@ -137,7 +137,7 @@ export default function HeroSection() {
             initial={{ opacity: 0, scale: 0.8 }}
             animate={{ opacity: 1, scale: 1 }}
             transition={{ duration: 1, delay: 1.5 }}
-            className="flex flex-col sm:flex-row gap-6 items-center justify-center mb-8"
+            className="flex flex-col sm:flex-row gap-6 items-center justify-center mb-8 translate-y-16 sm:translate-y-0"
           >
             <motion.button
               whileHover={{ 
