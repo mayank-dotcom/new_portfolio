@@ -52,14 +52,14 @@ const projects = [
   },
   {
     id: 5,
-    title: 'TRAVELLER',
-    shortDescription: 'Comprehensive hotel booking platform with intuitive interface, real-time availability, secure payment processing, and seamless user experience for travelers worldwide',
-    image: '/project-images/traveller.png',
+    title: 'JURY',
+    shortDescription: 'An AI-driven platform that analyzes your UI screenshots, identifies design and usability issues, and pinpoints which team member — designer, developer, or manager — is responsible. It also enables seamless team discussions for faster, smarter design improvement.',
+    image: '/project-images/image.png',
     fallbackGradient: 'from-green-500 to-green-700',
-    technologies: ['EJS', 'Bootstrap', 'MongoDB', 'Node.js'],
-    category: 'Full Stack',
+    technologies: ['Next.js', 'Tailwind', 'MongoDB', 'Node.js' , 'OpenAI'],
+    category: 'Full Stack + AI',
     gradient: 'from-green-500 to-green-700',
-    link: 'https://traveller-web.onrender.com/'
+    link: 'https://jury-front.vercel.app/'
   }
 ];
 
