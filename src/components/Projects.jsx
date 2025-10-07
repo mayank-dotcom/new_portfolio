@@ -28,7 +28,7 @@ function Projects() {
       link: "https://www.narad.net.in/",
     },
     {
-      title: "Traveller",
+      title: "Jury",
       description: "A hotel and destination booking system  ",
       image: "/traveller.png?height=300&width=400",
       tech:<i className="fa-brands fa-html5"id="ic"> <i className="fa-brands fa-css3-alt"></i> <i class="fa-brands fa-js"id="ic"></i> <i>Ex - <i class="fa-brands fa-node-js"id="ic"></i></i> <i class="fa-brands fa-node"id="ic"></i> <i class="fa-brands fa-bootstrap"id="ic"></i> <i class="fa-solid fa-server"id="ic"></i></i>,

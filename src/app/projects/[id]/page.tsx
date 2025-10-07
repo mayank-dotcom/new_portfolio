@@ -150,38 +150,35 @@ Built with cutting-edge AI technologies, this project represents a unique inters
     ]
   },
   '5': {
-    title: 'TRAVELLER',
-    fullDescription: `A comprehensive hotel booking platform with intuitive interface, real-time availability, secure payment processing, and seamless user experience for travelers worldwide. This full-stack web application demonstrates expertise in traditional web development technologies while providing a robust solution for the hospitality industry.
+    title: 'JURY',
+    fullDescription: `An AI-driven platform that analyzes your UI screenshots, identifies design and usability issues, and pinpoints which team member — designer, developer, or manager — is responsible. It also enables seamless team discussions for faster, smarter design improvement.
 
 Key Features:
-• Comprehensive hotel search and filtering with real-time availability
-• Secure booking system with integrated payment processing
-• User-friendly interface built with EJS templating and Bootstrap styling
+• The AI provides instant and comprehensive feedback on uploaded UI
+• Can identify which team member—designer, developer, or tester—is responsible for specific issues
+• Streamlines the design review process, making it easier to track and resolve problems
 • MongoDB-powered database for efficient data management and scalability
 • Real-time booking confirmation and email notification system
-• Advanced search filters including location, price range, amenities, and ratings
-• Responsive design ensuring optimal experience across all devices
-• Administrative dashboard for hotel management and booking analytics
-
-Built using server-side rendering with EJS templates and styled with Bootstrap for responsive design, this platform leverages Node.js for robust backend processing and MongoDB for reliable data persistence. The application provides a complete booking ecosystem that handles everything from hotel discovery to payment processing, demonstrating proficiency in full-stack web development using traditional yet powerful web technologies.`,
-    technologies: ['EJS', 'Bootstrap', 'MongoDB', 'Node.js', 'Express.js', 'jQuery', 'CSS3', 'HTML5'],
-    demoUrl: 'https://traveller-web.onrender.com/',
-    githubUrl: 'https://github.com/mayank-dotcom/Traveller-web',
-    category: 'Full Stack',
+• Streamlines the design review process, making it easier to track and resolve problems
+`,
+    technologies: ['Next.js', 'Tailwind', 'MongoDB', 'Node.js' , 'OpenAI'],
+    demoUrl: 'https://jury-front.vercel.app/',
+    githubUrl: 'https://github.com/mayank-dotcom/jury_front',
+    category: 'Full Stack + AI',
     gradient: 'from-green-500 to-green-700',
     challenges: [
-      'Implementing real-time hotel availability and booking management',
-      'Creating responsive design with Bootstrap for optimal user experience',
-      'Managing complex booking workflows and payment integration',
-      'Optimizing database queries for fast search and filtering',
-      'Ensuring secure user authentication and data protection'
+      'The AI’s accuracy depends on the quality and training of the underlying model',
+      'Complex or unconventional UI elements may sometimes be misinterpreted',
+      'Requires a stable internet connection for smooth operation',
+      'Limited capability to detect non-visual issues, such as backend logic or performance concerns',
+      'Initial setup and configuration of the system can take some time and effort'
     ],
     outcomes: [
-      'Successfully deployed full-featured booking platform with 100+ hotels',
-      'Achieved responsive design working seamlessly across all device types',
-      'Implemented secure booking system with 99.9% transaction success rate',
-      'Created intuitive user interface resulting in 85% booking completion rate',
-      'Demonstrated proficiency in traditional web development stack'
+      'Provides instant, detailed feedback on uploaded UI designs, highlighting issues clearly',
+      'Accurately identifies which team member—designer, developer, or tester—is responsible for specific problems',
+      'Streamlines the design review workflow, making it easier to track and resolve issues efficiently',
+      'Encourages team collaboration by allowing discussions directly within the platform',
+      'Saves time and enhances the overall quality and consistency of the UI'
     ]
   }
 };
