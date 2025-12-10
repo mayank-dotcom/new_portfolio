@@ -1,0 +1,175 @@
+@import url("https://fonts.googleapis.com/css2?family=Orbitron:wght@400;600&display=swap");
+
+/* Add these new styles for the progress circle */
+.progress-container {
+    position: relative;
+    width: 96px;  /* w-24 equivalent */
+    height: 96px; /* h-24 equivalent */
+}
+
+.progress-svg {
+    width: 100%;
+    height: 100%;
+}
+
+.skills-section {
+    padding: 80px 20px;
+    background: rgba(65, 44, 86, 0.1);
+    color: white;
+    text-align: center;
+    position: relative;
+    overflow: hidden;
+    backdrop-filter: blur(3px);
+    box-shadow: inset 0 0 30px rgba(75, 46, 104, 0.3);
+}
+
+.skills-section::before {
+    content: "";
+    position: absolute;
+    width: 250%;
+    height: 250%;
+    top: -75%;
+    left: -75%;
+    background: transparent;
+    animation: pulse-bg 6s infinite alternate ease-in-out;
+}
+
+@keyframes pulse-bg {
+    0% {
+        transform: scale(1);
+        opacity: 0.3;
+    }
+    100% {
+        transform: scale(1.2);
+        opacity: 0.6;
+    }
+}
+
+#sect {
+    margin-bottom: 3rem;
+    font-size: 2.5rem;
+    font-weight: 700;
+    font-family: "Orbitron", sans-serif;
+    background: linear-gradient(45deg, #fdfdfd, #0c0c0c);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.skills-grid {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 40px;
+}
+
+.skill-item {
+    width: 160px;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background: rgba(255, 255, 255, 0.08);
+    backdrop-filter: blur(15px);
+    border-radius: 20px;
+    padding: 20px;
+    box-shadow: 
+        0 4px 5px #fdfdfd,
+        inset 0 0 10px #0c0c0c;
+    transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+    position: relative;
+    overflow: hidden;
+    scale: 120%;
+    margin-top: 3rem;
+}
+
+.skill-item:hover {
+    transform: scale(1.1);
+    box-shadow: 
+        0 0 40px rgba(241, 49, 158, 0.9),
+        inset 0 0 15px rgba(255, 255, 255, 0.4);
+}
+
+.skill-item::before {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: radial-gradient(circle, rgba(65, 44, 86, 0.3) 0%, rgba(0, 0, 0, 0) 80%);
+    opacity: 0.2;
+    transition: opacity 0.3s ease-in-out;
+}
+
+.skill-item:hover::before {
+    opacity: 0.7;
+}
+
+.skill-name {
+    margin-top: 12px;
+    font-size: 1.1rem;
+    font-family: "Orbitron", sans-serif;
+    color: #fff;
+    text-shadow: 0px 0px 10px rgba(255, 255, 255, 0.5);
+}
+
+.glow-wrap {
+    position: relative;
+}
+
+.glow-wrap::before {
+    content: "";
+    position: absolute;
+    top: -10px;
+    left: -10px;
+    width: 120%;
+    height: 120%;
+    border-radius: 50%;
+    background: radial-gradient(circle, rgba(255, 255, 255, 0.4) 0%, rgba(185, 180, 180, 0) 60%);
+    opacity: 0.3;
+    z-index: -1;
+    transition: opacity 0.3s ease-in-out;
+}
+
+.skill-item:hover .glow-wrap::before {
+    opacity: 0.8;
+}
+
+#ic {
+    font-size: 34px;
+}
+@media(max-width:400px){
+    #skills{
+        scale: 60%;
+        position: relative;
+        left: -23rem!important;
+        top: -27rem!important;
+        /* width: 32rem!important; */
+        padding-left: 5rem;
+        padding-right: 5rem;
+
+    }
+    .skills-grid{
+                width: 32rem!important;
+                position: relative;
+
+                right: -13rem!important;
+
+
+    }
+}
+@media (max-width: 1536px) and (min-width: 1280px) {
+    #skills{
+left: 12rem!important;
+    }
+}@media (max-width: 1280px) and (min-width: 1024px) {
+#skills{
+    left: 4rem!important;
+
+}
+}@media (min-width: 1900px)   {
+    #skills{
+    width: 90rem!important;
+    scale: 105% !important;
+    left: 15rem!important;
+    }
+}
