@@ -130,7 +130,7 @@ Key Features:
 
 Built with Next.js for a seamless user interface and MongoDB for efficient data persistence, this platform revolutionizes how teams manage automated workflows. The system leverages LangChain for advanced AI capabilities, enabling intelligent text processing, content summarization, and automated email generation. Users can define complex workflows that execute tasks sequentially or in parallel, with full control over timing, conditions, and execution parameters.`,
     technologies: ['Next.js', 'MongoDB', 'LangChain', 'Node.js', 'Express.js', 'TailwindCSS', 'Vercel', 'AI Agents'],
-    demoUrl: 'https://flow-nine-jade.vercel.app/dashboard',
+    demoUrl: 'https://flow-nine-jade.vercel.app',
     githubUrl: 'https://github.com/mayank-dotcom/FLOW',
     category: 'AI/ML',
     gradient: 'from-purple-500 to-pink-600',
@@ -196,7 +196,7 @@ Key Features:
 • Real-time booking confirmation and email notification system
 • Streamlines the design review process, making it easier to track and resolve problems
 `,
-    technologies: ['Next.js', 'Tailwind', 'MongoDB', 'Node.js' , 'OpenAI'],
+    technologies: ['Next.js', 'Tailwind', 'MongoDB', 'Node.js', 'OpenAI'],
     demoUrl: 'https://jury-front.vercel.app/',
     githubUrl: 'https://github.com/mayank-dotcom/jury_front',
     category: 'Full Stack + AI',
@@ -260,7 +260,7 @@ export default function ProjectDetail() {
   return (
     <div className="min-h-screen bg-black text-white overflow-x-hidden">
       {/* Iron Man Background */}
-      <div 
+      <div
         className="fixed inset-0 z-0 opacity-30 bg-center bg-no-repeat"
         style={{
           backgroundImage: "url('/Avengers_ Age of Ultron UI by Territory Studios — HUDS+GUIS.jpeg')",
@@ -269,7 +269,7 @@ export default function ProjectDetail() {
           filter: 'contrast(1.1) brightness(1.05)'
         }}
       />
-      
+
       {/* HUD Overlay */}
       <HUDOverlay isScanning={isScanning}>
         <div className="relative z-10 min-h-screen w-full max-w-full overflow-x-hidden">
@@ -281,14 +281,14 @@ export default function ProjectDetail() {
             className="p-6"
           >
             <div className="flex items-center justify-between">
-              <Link 
+              <Link
                 href="/"
                 className="hud-border px-4 py-2 hud-font text-yellow-400 hover:text-yellow-300 transition-colors duration-300 inline-flex items-center space-x-2"
               >
                 <ArrowLeftIcon className="w-5 h-5" />
                 <span>[RETURN] MAIN_TERMINAL</span>
               </Link>
-              
+
               {/* Mission Status */}
               <div className="hud-border px-4 py-2 hud-font">
                 <div className="flex items-center space-x-2">
@@ -316,7 +316,7 @@ export default function ProjectDetail() {
           {/* Main Content */}
           <div className="w-full px-6 pb-20 xl:pl-72 lg:pr-8 max-w-full">
             {/* Mission Briefing Header */}
-            <ScanningFrame 
+            <ScanningFrame
               title="MISSION_BRIEFING"
               status="CLASSIFIED"
               isActive={missionLoaded}
@@ -349,8 +349,8 @@ export default function ProjectDetail() {
                     href={project.demoUrl}
                     target="_blank"
                     rel="noopener noreferrer"
-                    whileHover={{ 
-                      scale: 1.05, 
+                    whileHover={{
+                      scale: 1.05,
                       boxShadow: "0 0 25px rgba(255, 215, 0, 0.8)",
                       textShadow: "0 0 10px rgba(255, 215, 0, 0.8)"
                     }}
@@ -364,8 +364,8 @@ export default function ProjectDetail() {
                     href={project.githubUrl}
                     target="_blank"
                     rel="noopener noreferrer"
-                    whileHover={{ 
-                      scale: 1.05, 
+                    whileHover={{
+                      scale: 1.05,
                       boxShadow: "0 0 25px rgba(220, 20, 60, 0.8)",
                       textShadow: "0 0 10px rgba(220, 20, 60, 0.8)"
                     }}
@@ -388,8 +388,8 @@ export default function ProjectDetail() {
                 transition={{ duration: 0.8, delay: 0.8 }}
                 className="xl:col-span-2 min-w-0 overflow-hidden"
               >
-                <ScanningFrame 
-                  title="MISSION_BRIEFING" 
+                <ScanningFrame
+                  title="MISSION_BRIEFING"
                   status="DECRYPTED"
                   isActive={missionLoaded}
                   className="p-8"
@@ -435,7 +435,7 @@ export default function ProjectDetail() {
                   >
                     <CpuChipIcon className="w-4 h-4 text-yellow-400" />
                   </motion.div>
-                  
+
                   <h3 className="text-xl font-bold text-yellow-400 mb-4 hud-font hud-glow">COMBAT_SYSTEMS</h3>
                   <div className="space-y-2">
                     {project.technologies.map((tech, index) => (
@@ -490,7 +490,7 @@ export default function ProjectDetail() {
                         transition={{ delay: index * 0.1 + 1.6 }}
                         className="text-gray-300 text-xs leading-relaxed hud-font flex items-start space-x-2"
                       >
-                        <motion.span 
+                        <motion.span
                           className="text-green-400 mt-1 flex-shrink-0"
                           animate={{ opacity: [0.5, 1, 0.5] }}
                           transition={{ duration: 1.5, repeat: Infinity, delay: index * 0.3 }}
