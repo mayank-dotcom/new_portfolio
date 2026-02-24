@@ -18,7 +18,10 @@ import {
   SiMysql,
   SiFirebase,
   SiLangchain,
-  SiFastapi
+  SiFastapi,
+  SiHono,
+  SiDjango,
+  SiElectron
 } from 'react-icons/si';
 import { CpuChipIcon, ChatBubbleLeftRightIcon, PaintBrushIcon, CloudIcon } from '@heroicons/react/24/outline';
 
@@ -33,9 +36,13 @@ const skills = [
   { name: 'Next.js', icon: SiNextdotjs, color: '#000000', category: 'Frontend' },
   { name: 'Shadcn UI', icon: PaintBrushIcon, color: '#000000', category: 'Frontend' },
   { name: 'Aceternity UI', icon: PaintBrushIcon, color: '#8B5CF6', category: 'Frontend' },
+  { name: 'Electron', icon: SiElectron, color: '#47848F', category: 'Frontend' },
   { name: 'Node.js', icon: SiNodedotjs, color: '#339933', category: 'Backend' },
   { name: 'Express.js', icon: SiExpress, color: '#000000', category: 'Backend' },
   { name: 'FastAPI', icon: SiFastapi, color: '#009688', category: 'Backend' },
+  { name: 'Hono.js', icon: SiHono, color: '#E36002', category: 'Backend' },
+  { name: 'Django', icon: SiDjango, color: '#092E20', category: 'Backend' },
+  { name: 'Electron', icon: SiElectron, color: '#47848F', category: 'Backend' },
   { name: 'MongoDB', icon: SiMongodb, color: '#47A248', category: 'Database' },
   { name: 'SQL', icon: SiMysql, color: '#4479A1', category: 'Database' },
   { name: 'Firebase', icon: SiFirebase, color: '#FFCA28', category: 'Database' },
@@ -69,10 +76,10 @@ export default function SkillsSection() {
             <h2 className="text-2xl sm:text-4xl md:text-6xl font-bold glow-yellow-text">
               TECH_ARSENAL
             </h2>
-            <div className="hud-font text-gray-300 text-sm mt-4 max-w-2xl">
+              <div className="hud-font text-gray-300 text-sm mt-4 max-w-2xl">
                ANALYZING_COMBAT_SYSTEMS.EXE
               <br/>
-               TECHNOLOGIES_MASTERED: 26/26
+               TECHNOLOGIES_MASTERED: 29/29
             </div>
           </div>
         </motion.div>
@@ -124,7 +131,12 @@ export default function SkillsSection() {
                       <div className="text-2xl group-hover:scale-110 transition-transform duration-300 relative">
                         {React.createElement(skill.icon as React.ComponentType<any>, {
                           className: "w-6 h-6",
-                          style: { color: skill.color }
+                          style: { 
+                            color: skill.color,
+                            filter: skill.name === 'Django' || skill.name === 'Electron' 
+                              ? 'drop-shadow(0 0 8px currentColor) drop-shadow(0 0 12px currentColor) drop-shadow(0 0 16px currentColor)' 
+                              : 'none'
+                          }
                         })}
                         
                         {/* Target reticle overlay */}

@@ -41,6 +41,17 @@ const projects = [
   },
   {
     id: 4,
+    title: 'FLOW',
+    shortDescription: 'Advanced workflow orchestration platform that seamlessly combines multiple automated tasks like text cleaning, email sending, and summarization with intelligent scheduling and execution control',
+    image: '/project-images/flow.png',
+    fallbackGradient: 'from-purple-500 to-pink-600',
+    technologies: ['Next.js', 'MongoDB', 'LangChain'],
+    category: 'AI/ML',
+    gradient: 'from-purple-500 to-pink-600',
+    link: 'https://flow-nine-jade.vercel.app/dashboard'
+  },
+  {
+    id: 5,
     title: 'HANUMAN LLM',
     shortDescription: 'Groundbreaking fine-tuned language model that embodies the wisdom and character of Hanuman, leveraging advanced transformer architecture and mythological knowledge bases',
     image: '/project-images/hanuman-llm.png',
@@ -51,7 +62,7 @@ const projects = [
     link: 'https://github.com/mayank-dotcom/Hanuman_llm'
   },
   {
-    id: 5,
+    id: 6,
     title: 'JURY',
     shortDescription: 'An AI-driven platform that analyzes your UI screenshots, identifies design and usability issues, and pinpoints which team member — designer, developer, or manager — is responsible. It also enables seamless team discussions for faster, smarter design improvement.',
     image: '/project-images/image.png',
