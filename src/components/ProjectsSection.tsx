@@ -37,7 +37,7 @@ const projects = [
     technologies: ['LangChain', 'Next.js', 'MongoDB', 'ChatGPT API'],
     category: 'AI/ML',
     gradient: 'from-red-500 to-red-700',
-    link: 'https://me-bot-rutx.vercel.app/'
+    link: 'https://me-bot.vercel.app/'
   },
   {
     id: 4,

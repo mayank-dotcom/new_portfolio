@@ -95,7 +95,7 @@ Key Features:
 
 Built with Next.js for seamless user experience and powered by ChatGPT API for natural language processing, this bot represents a new frontier in personal AI assistants. The system leverages MongoDB for efficient data management and LangChain for advanced conversation flow control, creating an engaging digital representation that can effectively communicate personal and professional information in a natural, conversational manner.`,
     technologies: ['LangChain', 'Next.js', 'MongoDB', 'ChatGPT API', 'OpenAI API', 'Express.js', 'TailwindCSS', 'Vercel'],
-    demoUrl: 'https://me-bot-rutx.vercel.app/',
+    demoUrl: 'https://me-bot.vercel.app/',
     githubUrl: 'https://github.com/mayank-dotcom/Me_bot',
     category: 'AI/ML',
     gradient: 'from-red-500 to-red-700',
