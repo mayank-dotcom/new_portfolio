@@ -15,7 +15,7 @@ const projects = [
     technologies: ['Next.js', 'MongoDB', 'Node Mailer', 'Vector DB', 'Gmail API', 'LangChain'],
     category: 'AI/ML',
     gradient: 'from-yellow-500 to-red-600',
-    link: 'https://gmailbot-dun.vercel.app/'
+    link: 'https://niyojaka-2njz.vercel.app/'
   },
   {
     id: 2,

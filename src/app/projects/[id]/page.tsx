@@ -25,7 +25,7 @@ Key Features:
 
 This groundbreaking tool leverages Next.js for the frontend, MongoDB for data persistence, and Node Mailer for email delivery. The system processes incoming emails through Gmail's Pub/Sub API, analyzes content using advanced AI models, and generates contextually appropriate responses that maintain professional communication standards while eliminating the AI-like tone that recipients might detect.`,
     technologies: ['Next.js', 'MongoDB', 'Node Mailer', 'Vector DB', 'Gmail API', 'LangChain', 'ChatGPT API', 'Pub/Sub'],
-    demoUrl: 'https://gmailbot-dun.vercel.app/',
+    demoUrl: 'https://niyojaka-2njz.vercel.app/',
     githubUrl: 'https://github.com/mayank-dotcom/gmailbot',
     category: 'AI/ML',
     gradient: 'from-yellow-500 to-red-600',

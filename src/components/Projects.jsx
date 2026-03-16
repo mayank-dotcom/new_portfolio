@@ -18,7 +18,7 @@ function Projects() {
         {/* Langchain icon fallback: chatbot */}
         <i className="fa-solid fa-robot" id="ic" style={{marginRight: '8px'}}></i>
       </>,
-      link: "https://gmailbot-dun.vercel.app/",
+      link: "https://niyojaka-2njz.vercel.app/",
     },
     {
       title: "NARAD",
